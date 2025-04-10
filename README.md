@@ -1,17 +1,32 @@
-# Forest-Fire-Detection
-This repository contains a deep learning-based approach for detecting forest fires using image classification. The model is built using TensorFlow and trained on the Wildfire Dataset. It utilizes Convolutional Neural Networks (CNNs) for classification and is optimized for GPU acceleration.
+This repository contains a Convolutional Neural Network (CNN)-based deep learning project for detecting forest fires from images. It is built using TensorFlow and Keras and trained on The Wildfire Dataset.
 
-Features and Improvements:
+Project Structure:
 
+Week 1 Highlights:
 
-Dataset Handling: Downloads and processes the Wildfire Dataset from Kaggle.
+Downloaded and extracted The Wildfire Dataset using KaggleHub.
 
-GPU Optimization: Ensures the use of a GPU for faster training and inference.
+Visualized image samples from the dataset.
 
-CNN Architecture: Implements a CNN model for classifying images into 'fire' and 'nofire' categories.
+Verified GPU availability for accelerated training.
 
-Data Augmentation: Utilizes ImageDataGenerator to enhance the training dataset.
+Checked the number of classes (fire, nofire).
 
-Visualization: Displays sample images from the dataset for better understanding.
+Displayed class-wise image samples using Matplotlib.
 
-Improved Efficiency: Optimized model training with dropout layers to reduce overfitting.
+Week 2 Improvements:
+
+Added image preprocessing using ImageDataGenerator.
+
+Normalized images by rescaling pixel values.
+
+Loaded data in batches of 32 for efficient training.
+
+Enabled shuffling of data to avoid overfitting.
+
+Built a deeper CNN with three Conv2D and MaxPooling2D layers.
+
+Added a Dropout layer to reduce overfitting.
+
+Used binary class mode for classification (fire, nofire).
+
