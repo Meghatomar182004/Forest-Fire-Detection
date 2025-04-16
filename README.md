@@ -55,3 +55,13 @@ Matplotlib
 NumPy
 
 KaggleHub
+
+Future Enhancements:
+
+Add data augmentation (rotation, zoom, flip).
+
+Implement early stopping and model checkpoints.
+
+Use transfer learning with a pre-trained model like ResNet or EfficientNet.
+
+Visualize confusion matrix and classification report.
