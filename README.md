@@ -26,18 +26,6 @@ Enabled shuffling of data to avoid overfitting.
 
 Built a deeper CNN with three Conv2D and MaxPooling2D layers.
 
-Requirements: 
-
-Python 3.x
-
-TensorFlow 2.x
-
-Matplotlib
-
-NumPy
-
-KaggleHub
-
 Added a Dropout layer to reduce overfitting.
 
 Used binary class mode for classification (fire, nofire).
@@ -55,3 +43,15 @@ Evaluated model performance using the test set.
 Saved the trained model (FFD.keras).
 
 Created a predict_fire() function to classify new images as fire or nofire.
+
+Requirements: 
+
+Python 3.x
+
+TensorFlow 2.x
+
+Matplotlib
+
+NumPy
+
+KaggleHub
