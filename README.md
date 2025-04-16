@@ -30,3 +30,16 @@ Added a Dropout layer to reduce overfitting.
 
 Used binary class mode for classification (fire, nofire).
 
+Week 3 Enhancements:
+
+Compiled the CNN model using Adam optimizer and binary cross-entropy loss.
+
+Trained the model for 12 epochs with validation.
+
+Plotted training and validation accuracy and loss curves.
+
+Evaluated model performance using the test set.
+
+Saved the trained model (FFD.keras).
+
+Created a predict_fire() function to classify new images as fire or nofire.
