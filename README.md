@@ -26,6 +26,18 @@ Enabled shuffling of data to avoid overfitting.
 
 Built a deeper CNN with three Conv2D and MaxPooling2D layers.
 
+Requirements: 
+
+Python 3.x
+
+TensorFlow 2.x
+
+Matplotlib
+
+NumPy
+
+KaggleHub
+
 Added a Dropout layer to reduce overfitting.
 
 Used binary class mode for classification (fire, nofire).
